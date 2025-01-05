@@ -1,0 +1,51 @@
+@import '../../styles/common-styles';
+
+.header {
+    background: $gradient-orange;
+    padding: 55px 1rem 1rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        height: 2.3125rem;
+        width: 1.75rem;
+    }
+
+    &__profile-pic {
+        padding-right: 1rem;
+    }
+
+
+    &__title {
+        color: $black;
+        font-family: $font-poppins;
+        font-size: 0.75rem;
+        font-weight: 500;
+        line-height: 1rem;
+        text-align: right;
+    }
+
+    &__subtitle {
+        color: $taupe-beige;
+        font-family: $font-poppins;
+        font-size: 0.75rem;
+        font-weight: 500;
+        line-height: 1rem;
+        text-align: right;
+    }
+
+    &__nav {
+        margin-top: 10px;
+
+        &__link {
+            color: #61dafb;
+            margin: 0 10px;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
